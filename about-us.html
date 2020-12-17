@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="images/12.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="images/fav-icon.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link href="nivo-slider/css/nivo-slider.css" rel="stylesheet">
+    <link href="css/nivo-slider-theme.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>icalibrator</title>
+</head>
+
+<body>
+
+    <!--start header top-->
+    <div id="includeHeader"></div>
+
+    <!--end of header top-->
+
+
+    <!--start heading section-->
+
+    <section class="page-heading">
+        <div class="container">
+            <div class="row">
+                <h1>About Us</h1>
+
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!--end of heading-->
+
+    <!--start main about us -->
+
+    <section class="main-about-us">
+        <div class="container">
+            <div class="row row1">
+                <div class="col-lg-5 my-auto">
+                    <div class="right-col">
+                        <img src="images/about-us-img.jpg" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+
+                    <p class="content">
+                        We are 13+ years young software company, founded by a team of ex-IITians who have more than three decades of corporate experience. To name a few, ex-CTO of Sun Microsystems; ex-CTO of Momentum Technologies before being bought over by French IT MNC Sopra Group, ex-Dir (Tech) of Wipro Global R&D.<br><br>
+
+                        Our products have been ERP, POS, WMS, and HRMS for all major industry verticals. In our endeavour to create a B2B platform where each candidate’s skillset or calibre could be assessed against highest established industry standards, we developed a niche solution for skill-based training & assessment which got evolved into a “Paperless Assessment & Analytics” solution for Education Vertical.<br><br>
+
+                        We take pride in mentioning that we have secured PATENT for our technology from UNITED STATES PATENT & TRADEMARK OFFICE (USPTO). It encompass a software suite & a writing tablet providing not only a virtual pen & paper experience to students but also ensure eliminating colossal challenges associated with paper based examination process.<br><br>
+
+                        The paperless system makes the whole experience safer & operationally exceptional. With analytics on formative & summative assessments, it not only enables improved decision making by focusing on patterns that indicate student success but also help Universities to strategize assessment methodology & map student’s performance results with program outcome.
+                    </p>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--end of main about us -->
+
+
+    <!--================ start Footer bottom Area =================-->
+
+
+    <div id="includeFooter"></div>
+
+    <!--================ End Footer bottom Area =================-->
+
+
+
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/customjquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+
+
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider({
+                effect: 'random',
+                slices: 15,
+                boxCols: 8,
+                boxRows: 4,
+                animSpeed: 500,
+                pauseTime: 3000,
+                startSlide: 0,
+                directionNav: true,
+                controlNav: true,
+                controlNavThumbs: false,
+                pauseOnHover: true,
+                manualAdvance: false,
+                prevText: 'Prev',
+                nextText: 'Next',
+                randomStart: false,
+                beforeChange: function() {},
+                afterChange: function() {},
+                slideshowEnd: function() {},
+                lastSlide: function() {},
+                afterLoad: function() {}
+            });
+        });
+
+    </script>
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel();
+        });
+
+    </script>
+
+    <script>
+        $(function() {
+            $("#includeFooter").load("footer.html");
+            $("#includeHeader").load("header.html");
+        });
+
+    </script>
+
+
+</body>
+
+</html>
